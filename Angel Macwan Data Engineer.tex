@@ -1,4 +1,4 @@
-\documentclass[letterpaper,11pt]{article}
+\documentclass[a4paper,11pt]{article}
 
 \usepackage{latexsym}
 \usepackage[T1]{fontenc}
@@ -92,6 +92,9 @@
 
 \renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
 
+% Section spacing variable
+\newcommand{\sectionSpacing}{\vspace{0pt}}
+
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 \newcommand{\resumeItemListStart}{\begin{itemize}}
@@ -127,7 +130,7 @@
       {Sardar Patel University}{India}
       {B.Sc Computer Application and Information Technology (CGPA: 8.6/10)}{Jun. 2017 --- Oct. 2020}
   \resumeSubHeadingListEnd{}
-
+\sectionSpacing
 
 %-----------EXPERIENCE-----------
 \section{Experience}
@@ -137,38 +140,54 @@
       {Data Engineer}{Jun. 2022 --- Present}
       {IBM India}{India}
       \resumeItemListStart{}
-        \resumeItem{\textbf{Cloud \& Serverless Architecture}: Designed and deployed scalable serverless solutions using AWS Lambda, SQS, and Go Lang, reducing infrastructure costs while handling 2TB+ datasets with improved processing efficiency.}
-        \resumeItem{\textbf{Data Pipeline}: Built end-to-end data pipelines using Snowflake, Apache Spark, and Databricks, implementing CI/CD practices that reduced deployment time and improved data quality monitoring.}
-        \resumeItem{\textbf{Real-time Data Processing}: Architected batch and real-time data processing systems using Hadoop, Spark, and Sqoop for data ingestion, achieving 99.9\% uptime and 60\% faster processing speeds.}
-        \resumeItem{\textbf{API Development \& Integration}: Developed high-performance REST APIs using Go Lang and Python, enabling 45\% faster data retrieval and serving 50+ data scientists across multiple business units.}
-        \resumeItem{\textbf{Cross-functional Leadership}: Collaborated with product, engineering, and analytics teams to deliver integrated data solutions, improving data accessibility by 30\% and reducing analysis cycle time from days to hours.}
-        \resumeItem{\textbf{Data Quality \& Governance}: Implemented automated data validation frameworks and monitoring systems, reducing data inconsistencies by 35\% and ensuring compliance with enterprise data standards.}
-        \resumeItem{\textbf{AI \& RAG Systems Development}: Built and deployed Retrieval-Augmented Generation (RAG) systems using LangChain, PyTorch, TensorFlow, and JAX frameworks, enabling intelligent document processing and contextual AI responses for enterprise applications.}
-        \resumeItem{\textbf{WatsonX Enterprise AI}: Contributed to IBM's WatsonX team, working on state-of-the-art AI models and enterprise AI solutions, implementing cutting-edge machine learning algorithms and optimizing AI model performance for production environments.}
+        \resumeItem{Designed and owned distributed batch and streaming data pipelines using \textbf{Spark, Snowflake, and Databricks}, processing \textbf{2TB+ data} with \textbf{99.9\% pipeline reliability}.}
+        \resumeItem{Built scalable ingestion frameworks supporting real-time and scheduled workloads, reducing end-to-end processing latency by \textbf{60\%}.}
+        \resumeItem{Developed high-performance \textbf{REST APIs in Go and Python} to serve curated datasets to \textbf{50+ data scientists} and analytics teams.}
+        \resumeItem{Implemented \textbf{CI/CD pipelines}, automated data validation, and monitoring frameworks, reducing deployment failures and data quality issues by \textbf{35\%}.}
+        \resumeItem{Contributed to enterprise \textbf{AI platform development} supporting large-scale \textbf{ML and LLM workloads}, including \textbf{RAG-based document processing pipelines}.}
       \resumeItemListEnd{}
 
     \resumeSubheading
       {Data Science Intern}{Jun. 2021 --- Sept. 2021}
       {MindWorks Global}{India}
       \resumeItemListStart{}
-        \resumeItem{\textbf{Custom Visualization Platform}: Engineered a comprehensive data visualization library using React, D3.js, and JavaScript, transforming the client reporting process by reducing visualization creation time from 4 hours to 20 minutes (85\% improvement).}
-        \resumeItem{\textbf{Large-scale Data Processing}: Processed and analyzed datasets containing 500,000+ records using Python, Plotly, and custom APIs, delivering actionable insights that enhanced client presentation effectiveness by 25\%.}
-        \resumeItem{\textbf{Full-stack Integration}: Successfully integrated the visualization library into Ghost CMS, creating a seamless workflow for content creators and improving overall data storytelling capabilities.}
-        \resumeItem{\textbf{Client Impact \& Engagement}: Developed interactive dashboards and dynamic presentations that increased client engagement metrics by 25\%, leading to improved client retention and satisfaction scores.}
+        \resumeItem{Built interactive analytics and visualization platform using \textbf{React and D3.js}, reducing dashboard creation time from \textbf{4 hours to under 20 minutes}.}
+        \resumeItem{Processed and analyzed datasets with \textbf{500K+ records} using \textbf{Python} and custom APIs to generate insights used in client-facing reports.}
+        \resumeItem{Integrated visualization framework into production CMS workflows, improving analyst productivity and increasing client engagement by \textbf{25\%}.}
       \resumeItemListEnd{}
 
     \resumeSubheading
       {Software Analyst / Trainee}{Aug. 2020 --- Oct. 2020}
       {TCS}{India}
       \resumeItemListStart{}
-        \resumeItem{Designed and maintained APIs, improving system connectivity and functionality by 22\% across 3 major projects.}
-        \resumeItem{Conducted rigorous testing of microservices to ensure optimal performance and reliability.}
-        \resumeItem{Contributed to the development of a payment processing system using React, Node.js, Python, and Java, reducing transaction times by 10\% and improving user experience.}
+        \resumeItem{Developed and tested backend APIs supporting enterprise microservices across \textbf{three production applications}.}
+        \resumeItem{Contributed to payment processing systems using \textbf{Java, Python, and Node.js}, improving transaction throughput and reducing latency by \textbf{10\%}.}
+        \resumeItem{Collaborated with QA and engineering teams to validate service reliability and production readiness.}
       \resumeItemListEnd{}
 
   \resumeSubHeadingListEnd{}
+\sectionSpacing
 
-%
+%-----------PROJECTS-----------
+\section{Projects}
+  \resumeSubHeadingListStart{}
+    \item \textbf{pluto: No Code ML Training Platform}
+      \resumeItemListStart{}
+        \resumeItem{Built a \textbf{no-code web platform} for training machine learning models with modular workflow orchestration, enabling model training without scripting.}
+        \resumeItem{Integrated automated dataset ingestion, model selection UI, and training job management backend.}
+        \resumeItem{Used \textbf{JavaScript, Node}, and custom orchestration logic to support extensible \textbf{ML pipelines}.}
+      \resumeItemListEnd{}
+
+    \item \textbf{Blood Cell Detection using YOLO V8}
+      \resumeItemListStart{}
+        \resumeItem{Developed object detection pipeline using \textbf{YOLO V8} on blood cell datasets with improved accuracy and inference performance.}
+        \resumeItem{Compared YOLO V8 with \textbf{R-CNN baseline}, analyzing precision, recall and inference speed metrics.}
+        \resumeItem{Packaged training and evaluation into reusable \textbf{Python workflows} for reproducibility.}
+      \resumeItemListEnd{}
+
+  \resumeSubHeadingListEnd{}
+\sectionSpacing
+
 %-----------PROGRAMMING SKILLS-----------
 \section{Technical Skills}
  \begin{itemize}[leftmargin=0.15in, label={}]
@@ -179,7 +198,7 @@
      \textbf{Tools \& Technologies}{: Git, Arduino, Raspberry Pi, Azure, AWS, Snowflake, Databricks, Docker}
     }}
  \end{itemize}
-
+\sectionSpacing
 
 %-------------------------------------------
 \end{document}
