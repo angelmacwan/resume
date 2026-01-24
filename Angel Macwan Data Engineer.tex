@@ -1,0 +1,185 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+% Fix fancyhdr footskip requirement
+\setlength{\footskip}{4.08003pt}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small#4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small#2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    {\Huge\scshape Angel Macwan} \\ \vspace{1pt}
+    \small +91 7405--448--639 $|$ \href{mailto:armacwan@gmail.com}{\underline{armacwan@gmail.com}} $|$ 
+    \href{https://linkedin.com/in/angel-im}{\underline{linkedin.com/in/angel-im}} $|$
+    \href{https://github.com/angelmacwan}{\underline{github.com/angelmacwan}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart{}
+    \resumeSubheading
+      {Amity University}{India}
+      {M.Sc Data Science (CGPA: 9.96/10)}{Sept. 2020 --- Jun. 2022}
+    \resumeSubheading
+      {Sardar Patel University}{India}
+      {B.Sc Computer Application and Information Technology (CGPA: 8.6/10)}{Jun. 2017 --- Oct. 2020}
+  \resumeSubHeadingListEnd{}
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart{}
+
+    \resumeSubheading
+      {Data Engineer}{Jun. 2022 --- Present}
+      {IBM India}{India}
+      \resumeItemListStart{}
+        \resumeItem{\textbf{Cloud \& Serverless Architecture}: Designed and deployed scalable serverless solutions using AWS Lambda, SQS, and Go Lang, reducing infrastructure costs while handling 2TB+ datasets with improved processing efficiency.}
+        \resumeItem{\textbf{Data Pipeline}: Built end-to-end data pipelines using Snowflake, Apache Spark, and Databricks, implementing CI/CD practices that reduced deployment time and improved data quality monitoring.}
+        \resumeItem{\textbf{Real-time Data Processing}: Architected batch and real-time data processing systems using Hadoop, Spark, and Sqoop for data ingestion, achieving 99.9\% uptime and 60\% faster processing speeds.}
+        \resumeItem{\textbf{API Development \& Integration}: Developed high-performance REST APIs using Go Lang and Python, enabling 45\% faster data retrieval and serving 50+ data scientists across multiple business units.}
+        \resumeItem{\textbf{Cross-functional Leadership}: Collaborated with product, engineering, and analytics teams to deliver integrated data solutions, improving data accessibility by 30\% and reducing analysis cycle time from days to hours.}
+        \resumeItem{\textbf{Data Quality \& Governance}: Implemented automated data validation frameworks and monitoring systems, reducing data inconsistencies by 35\% and ensuring compliance with enterprise data standards.}
+        \resumeItem{\textbf{AI \& RAG Systems Development}: Built and deployed Retrieval-Augmented Generation (RAG) systems using LangChain, PyTorch, TensorFlow, and JAX frameworks, enabling intelligent document processing and contextual AI responses for enterprise applications.}
+        \resumeItem{\textbf{WatsonX Enterprise AI}: Contributed to IBM's WatsonX team, working on state-of-the-art AI models and enterprise AI solutions, implementing cutting-edge machine learning algorithms and optimizing AI model performance for production environments.}
+      \resumeItemListEnd{}
+
+    \resumeSubheading
+      {Data Science Intern}{Jun. 2021 --- Sept. 2021}
+      {MindWorks Global}{India}
+      \resumeItemListStart{}
+        \resumeItem{\textbf{Custom Visualization Platform}: Engineered a comprehensive data visualization library using React, D3.js, and JavaScript, transforming the client reporting process by reducing visualization creation time from 4 hours to 20 minutes (85\% improvement).}
+        \resumeItem{\textbf{Large-scale Data Processing}: Processed and analyzed datasets containing 500,000+ records using Python, Plotly, and custom APIs, delivering actionable insights that enhanced client presentation effectiveness by 25\%.}
+        \resumeItem{\textbf{Full-stack Integration}: Successfully integrated the visualization library into Ghost CMS, creating a seamless workflow for content creators and improving overall data storytelling capabilities.}
+        \resumeItem{\textbf{Client Impact \& Engagement}: Developed interactive dashboards and dynamic presentations that increased client engagement metrics by 25\%, leading to improved client retention and satisfaction scores.}
+      \resumeItemListEnd{}
+
+    \resumeSubheading
+      {Software Analyst / Trainee}{Aug. 2020 --- Oct. 2020}
+      {TCS}{India}
+      \resumeItemListStart{}
+        \resumeItem{Designed and maintained APIs, improving system connectivity and functionality by 22\% across 3 major projects.}
+        \resumeItem{Conducted rigorous testing of microservices to ensure optimal performance and reliability.}
+        \resumeItem{Contributed to the development of a payment processing system using React, Node.js, Python, and Java, reducing transaction times by 10\% and improving user experience.}
+      \resumeItemListEnd{}
+
+  \resumeSubHeadingListEnd{}
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Programming Languages}{: Python, R, JavaScript, Go, Java, C/C++, SQL, NoSQL} \\
+     \textbf{Data Science}{: TensorFlow, PyTorch, PySpark, Hadoop, Sqoop, Flask, FastAPI, Docker, Data Analysis, Time Series, Regression Analysis, Machine Learning, Model Tuning, Hypothesis Testing, Predictive Modeling} \\
+     \textbf{AI \& Machine Learning}{: LangChain, JAX, RAG Systems, WatsonX, Large Language Models, Natural Language Processing, Deep Learning, AI Model Deployment} \\
+     \textbf{Tools \& Technologies}{: Git, Arduino, Raspberry Pi, Azure, AWS, Snowflake, Databricks, Docker}
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
