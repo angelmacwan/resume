@@ -93,7 +93,7 @@
 \renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
 
 % Section spacing variable
-\newcommand{\sectionSpacing}{\vspace{0pt}}
+\newcommand{\sectionSpacing}{\vspace{-8pt}}
 
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
@@ -130,6 +130,19 @@
       {Sardar Patel University}{India}
       {B.Sc Computer Application and Information Technology (CGPA: 8.6/10)}{Jun. 2017 --- Oct. 2020}
   \resumeSubHeadingListEnd{}
+\sectionSpacing
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+    \textbf{Programming Languages:} Python, Go, R, Java, JavaScript, C/C++, SQL, NoSQL \\
+    \textbf{Data Engineering:} PySpark, Hadoop, Sqoop, Databricks, Snowflake, Data Pipelines \\
+    \textbf{Machine Learning \& AI:} TensorFlow, PyTorch, JAX, LangChain, RAG, LLM, NLP, Model Deployment \\
+    \textbf{Data Science \& Analytics:} Data Analysis, Time Series, Regression Analysis, Hypothesis Testing, Predictive Modeling, Model Tuning \\
+    \textbf{Cloud \& DevOps:} AWS, Azure, Docker, Git, FastAPI, Flask, WatsonX
+}}
+ \end{itemize}
 \sectionSpacing
 
 %-----------EXPERIENCE-----------
@@ -171,34 +184,19 @@
 %-----------PROJECTS-----------
 \section{Projects}
   \resumeSubHeadingListStart{}
+    \item \textbf{Vector: Enterprise-Level RAG Solution}
+      \resumeItemListStart{}
+    \resumeItem{Designed and built a \textbf{professional-grade AI platform} enabling collaborative and secure \textbf{session-based conversations} with integrated real-time web searching and historical chat management.}
+    \resumeItem{Implemented robust \textbf{permission architecture using access groups}, allowing administrators to curate shared knowledge bases through document uploading and indexing capabilities.}
+    \resumeItem{Developed \textbf{enterprise-scale data governance framework} bridging individual AI utility with role-based information access and protection for organizational documents.}
+  \resumeItemListEnd{}
+
     \item \textbf{Pluto: No Code ML Training Platform}
       \resumeItemListStart{}
-        \resumeItem{Built a \textbf{no-code web platform} for training machine learning models with modular workflow orchestration, enabling model training without scripting.}
-        \resumeItem{Integrated automated dataset ingestion, model selection UI, and training job management backend.}
-        \resumeItem{Used \textbf{JavaScript, Node}, and custom orchestration logic to support extensible \textbf{ML pipelines}.}
-      \resumeItemListEnd{}
-
-    \item \textbf{Blood Cell Detection using YOLO V8}
-      \resumeItemListStart{}
-        \resumeItem{Implemented object detection pipeline using \textbf{YOLO V8} on blood cell datasets with improved accuracy and inference performance.}
-        \resumeItem{Compared YOLO V8 with \textbf{R-CNN baseline}, analyzing precision, recall, and inference speed metrics.}
-        \resumeItem{Packaged training and evaluation into reusable \textbf{Python workflows} for reproducibility.}
-      \resumeItemListEnd{}
+      \resumeItem{Built a \textbf{no-code web platform} for training machine learning models with modular workflow orchestration, enabling model training without scripting.}
+      \resumeItem{Integrated automated dataset ingestion, model selection UI, and training job management backend.}
+    \resumeItemListEnd{}
 
   \resumeSubHeadingListEnd{}
-\sectionSpacing
-
-%-----------PROGRAMMING SKILLS-----------
-\section{Technical Skills}
- \begin{itemize}[leftmargin=0.15in, label={}]
-    \small{\item{
-     \textbf{Programming Languages}{: Python, R, JavaScript, Go, Java, C/C++, SQL, NoSQL} \\
-     \textbf{Data Science}{: TensorFlow, PyTorch, PySpark, Hadoop, Sqoop, Flask, FastAPI, Docker, Data Analysis, Time Series, Regression Analysis, Machine Learning, Model Tuning, Hypothesis Testing, Predictive Modeling} \\
-     \textbf{AI \& Machine Learning}{: LangChain, JAX, RAG Systems, WatsonX, Large Language Models, Natural Language Processing, Deep Learning, AI Model Deployment} \\
-     \textbf{Tools \& Technologies}{: Git, Arduino, Raspberry Pi, Azure, AWS, Snowflake, Databricks, Docker}
-    }}
- \end{itemize}
-\sectionSpacing
-
 %-------------------------------------------
 \end{document}
