@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2026.1.24)  2 FEB 2026 12:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2026.1.24)  19 MAR 2026 14:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/Users/angel/Documents/resume/Angel Macwan Data Engineer.tex"
-(/Users/angel/Documents/resume/Angel Macwan Data Engineer.tex
+**"/Users/angel/Documents/resume/Angel Macwan Software Engineer.tex"
+(/Users/angel/Documents/resume/Angel Macwan Software Engineer.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (/usr/local/texlive/2025/texmf-dist/tex/latex/base/article.cls
@@ -278,8 +278,8 @@ File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count287
 \l__pdf_internal_box=\box56
-) (./Angel Macwan Data Engineer.aux)
-\openout1 = `"Angel Macwan Data Engineer.aux"'.
+) (./Angel Macwan Software Engineer.aux)
+\openout1 = `"Angel Macwan Software Engineer.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 107.
 LaTeX Font Info:    ... okay on input line 107.
@@ -314,9 +314,9 @@ LaTeX Font Info:    ... okay on input line 107.
 \everyMPtoPDFconversion=\toks27
 )
 Package hyperref Info: Link coloring OFF on input line 107.
- (./Angel Macwan Data Engineer.out) (./Angel Macwan Data Engineer.out)
+ (./Angel Macwan Software Engineer.out) (./Angel Macwan Software Engineer.out)
 \@outlinefile=\write3
-\openout3 = `"Angel Macwan Data Engineer.out"'.
+\openout3 = `"Angel Macwan Software Engineer.out"'.
 
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 117.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/ot1lmr.fd
@@ -354,24 +354,24 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
 [1
 
-{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}] (./Angel Macwan Data Engineer.aux)
+{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}] (./Angel Macwan Software Engineer.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-Package rerunfilecheck Info: File `"Angel Macwan Data Engineer".out' has not changed.
+Package rerunfilecheck Info: File `"Angel Macwan Software Engineer".out' has not changed.
 (rerunfilecheck)             Checksum: 4D3A3466DF4AEC76556325AAFE36C0F3;390.
  ) 
 Here is how much of TeX's memory you used:
  11247 strings out of 473190
- 178099 string characters out of 5715800
- 612601 words of memory out of 5000000
+ 178183 string characters out of 5715800
+ 612621 words of memory out of 5000000
  34340 multiletter control sequences out of 15000+600000
  617640 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,313b,456s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,79p,317b,456s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy6.pfb>
-Output written on "Angel Macwan Data Engineer.pdf" (1 page, 148078 bytes).
+Output written on "Angel Macwan Software Engineer.pdf" (1 page, 148078 bytes).
 PDF statistics:
  70 PDF objects out of 1000 (max. 8388607)
  52 compressed objects within 1 object stream
