@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2026.1.24)  19 MAR 2026 14:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2026.1.24)  19 MAR 2026 14:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -318,38 +318,38 @@ Package hyperref Info: Link coloring OFF on input line 107.
 \@outlinefile=\write3
 \openout3 = `"Angel Macwan Software Engineer.out"'.
 
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 117.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 112.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 117.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 112.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 117.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 112.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 117.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 112.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 117.
+(Font)              <10> on input line 112.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 117.
+(Font)              <7> on input line 112.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 117.
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 117.
+(Font)              <5> on input line 112.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 112.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 128.
+(Font)              <10.95> on input line 131.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 128.
+(Font)              <8> on input line 131.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 128.
+(Font)              <6> on input line 131.
 
 
 [1
@@ -360,21 +360,21 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `"Angel Macwan Software Engineer".out' has not changed.
-(rerunfilecheck)             Checksum: 4D3A3466DF4AEC76556325AAFE36C0F3;390.
+(rerunfilecheck)             Checksum: E4E9E1A9C6F21F2BE4BD13BCCD5DA004;468.
  ) 
 Here is how much of TeX's memory you used:
- 11247 strings out of 473190
- 178183 string characters out of 5715800
+ 11249 strings out of 473190
+ 178203 string characters out of 5715800
  612621 words of memory out of 5000000
- 34340 multiletter control sequences out of 15000+600000
+ 34341 multiletter control sequences out of 15000+600000
  617640 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,317b,456s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,79p,436b,456s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy6.pfb>
-Output written on "Angel Macwan Software Engineer.pdf" (1 page, 148078 bytes).
+Output written on "Angel Macwan Software Engineer.pdf" (1 page, 149694 bytes).
 PDF statistics:
- 70 PDF objects out of 1000 (max. 8388607)
- 52 compressed objects within 1 object stream
- 6 named destinations out of 1000 (max. 500000)
- 33 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 76 PDF objects out of 1000 (max. 8388607)
+ 58 compressed objects within 1 object stream
+ 7 named destinations out of 1000 (max. 500000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
