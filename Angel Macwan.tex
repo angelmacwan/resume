@@ -1,0 +1,187 @@
+\documentclass[a4paper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\setlength{\footskip}{4.08003pt}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\newcommand{\sectionSpacing}{\vspace{1pt}}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.6in}
+\addtolength{\textheight}{1.5in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small#4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small#2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\Huge\scshape Angel Macwan} \\ \vspace{1pt}
+    \small +91 7405--448--639 $|$ \href{mailto:armacwan@gmail.com}{\underline{armacwan@gmail.com}} $|$
+    \href{https://linkedin.com/in/angel-im}{\underline{linkedin.com/in/angel-im}} $|$
+    \href{https://github.com/angelmacwan}{\underline{github.com/angelmacwan}}
+\end{center}
+
+
+%-----------SUMMARY-----------
+\section{Professional Summary}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \small{\item{
+    Data Scientist and Engineer with 4+ years at IBM building large-scale data pipelines, ML systems, and production LLM applications. Hands-on experience designing agentic workflows with LangChain and LangGraph, engineering RAG platforms, and deploying models end-to-end on cloud infrastructure. Passionate about building intelligent systems at the intersection of data engineering, applied ML, and generative AI.
+  }}
+\end{itemize}
+\sectionSpacing
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart{}
+    \resumeSubheading
+      {Amity University}{India}
+      {M.Sc Data Science (CGPA: 9.96/10)}{Sept. 2020 --- Jun. 2022}
+    \resumeSubheading
+      {Sardar Patel University}{India}
+      {B.Sc Computer Application and Information Technology (CGPA: 8.6/10)}{Jun. 2017 --- Oct. 2020}
+  \resumeSubHeadingListEnd{}
+\sectionSpacing
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+    \textbf{Programming Languages:} Python, Go, R, Java, JavaScript, C/C++, SQL, NoSQL \\
+    \textbf{ML \& AI:} TensorFlow, PyTorch, JAX, LangChain, LangGraph, RAG, LLMs, NLP, Agentic Systems, Prompt Engineering, Model Deployment \\
+    \textbf{Data Science:} Statistical Analysis, Time Series, Regression, Hypothesis Testing, A/B Testing, Predictive Modeling, Model Tuning \\
+    \textbf{Data Engineering:} PySpark, Hadoop, Sqoop, Databricks, Snowflake, Streaming Pipelines, Data Validation \\
+    \textbf{Cloud, DevOps \& Visualization:} AWS, Azure, Docker, Git, FastAPI, Flask, WatsonX, Tableau, Power BI, D3.js
+}}
+ \end{itemize}
+\sectionSpacing
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart{}
+
+    \resumeSubheading
+      {Data Engineer}{Jun. 2022 --- Present}
+      {IBM}{Pune, India}
+      \resumeItemListStart{}
+        \resumeItem{Designed distributed batch and streaming data pipelines with \textbf{Spark, Snowflake, and Databricks} processing \textbf{2TB+}, reducing end-to-end latency by \textbf{60\%} at \textbf{99.9\% reliability}.}
+        \resumeItem{Developed and deployed \textbf{ML models} for time series forecasting, classification, and NLP tasks, achieving \textbf{92\% prediction accuracy} and serving \textbf{50+ data scientists and stakeholders}.}
+        \resumeItem{Engineered \textbf{RAG-based LLM applications} and prompt optimization frameworks, improving response quality by \textbf{35\%}.}
+        \resumeItem{Built intelligent \textbf{AI agents} using \textbf{LangChain and LangGraph}, enabling autonomous task execution and multi-step agentic workflows across enterprise use cases.}
+        \resumeItem{Collaborated with the \textbf{watsonX team} to build internal AI tools using \textbf{watsonX, IBM Granite models, and Gemini API}.}
+        \resumeItem{Conducted \textbf{A/B testing} and \textbf{hypothesis testing} campaigns, improving product metrics by \textbf{28\%}; implemented \textbf{CI/CD pipelines} and automated data validation, reducing deployment failures by \textbf{35\%}.}
+      \resumeItemListEnd{}
+
+    \resumeSubheading
+      {Data Science Intern}{Jun. 2021 --- Sept. 2021}
+      {MindWorks Global}{Delhi, India}
+      \resumeItemListStart{}
+        \resumeItem{Developed \textbf{predictive analytics models} using \textbf{Python and scikit-learn} on \textbf{500K+ records}, delivering insights that improved client decision-making by \textbf{25\%}.}
+        \resumeItem{Built interactive \textbf{data visualization dashboards} using \textbf{React and D3.js}, reducing dashboard creation from \textbf{4 hours to under 20 minutes} and cutting stakeholder reporting time by \textbf{80\%}.}
+      \resumeItemListEnd{}
+
+    \resumeSubheading
+      {Software Analyst / Trainee}{Aug. 2020 --- Oct. 2020}
+      {TCS}{Ahmedabad, India}
+      \resumeItemListStart{}
+        \resumeItem{Architected backend APIs supporting enterprise microservices across \textbf{three production applications} and built \textbf{data quality validation frameworks} for payment processing systems using \textbf{Java, Python, and Node.js}.}
+        \resumeItem{Analyzed data pipelines and developed \textbf{SQL-based analytics solutions}, identifying anomalies in payment systems and improving transaction throughput while reducing latency by \textbf{10\%}.}
+      \resumeItemListEnd{}
+
+  \resumeSubHeadingListEnd{}
+\sectionSpacing
+
+%-----------PROJECTS-----------
+\section{Projects}
+  \resumeSubHeadingListStart{}
+
+  \item \textbf{Thallus: AI-Driven Simulation \& Decision Intelligence Engine}
+  \resumeItemListStart{}
+    \resumeItem{Architected an \textbf{AI-driven Decision Intelligence platform} that models narrative spread and behavioral outcomes using \textbf{multi-agent simulations}, enabling scenario analysis and predictive modeling of complex social dynamics.}
+    \resumeItem{Designed \textbf{ML pipelines} combining \textbf{knowledge graph construction}, NLP-based ontology extraction, and \textbf{LLM-powered persona synthesis} to generate synthetic behavioral datasets from unstructured documents.}
+    \resumeItem{Built \textbf{advanced analytics dashboards} with interactive visualizations, multi-agent debate workflows, scenario comparison algorithms, and statistical inference engines for extracting actionable intelligence.}
+  \resumeItemListEnd{}
+
+  \item \textbf{Vector: Enterprise RAG \& Knowledge Base Platform}
+  \resumeItemListStart{}
+    \resumeItem{Developed an \textbf{enterprise-scale RAG (Retrieval-Augmented Generation) platform} leveraging \textbf{LLMs, embeddings, and vector databases} to enable intelligent document retrieval and conversational AI at scale.}
+    \resumeItem{Implemented \textbf{advanced NLP techniques} including semantic search optimization, prompt engineering, and response ranking algorithms, improving answer relevance by \textbf{40\%}.}
+    \resumeItem{Built \textbf{enterprise-grade access control} using role-based permissions and multi-tenant session management, enabling secure organizational knowledge base curation and usage analytics.}
+  \resumeItemListEnd{}
+
+  \resumeSubHeadingListEnd{}
+%-------------------------------------------
+\end{document}
